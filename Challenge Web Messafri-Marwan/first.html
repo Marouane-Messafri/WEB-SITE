@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <div class="page1">
+        <div class="steps">
+            <img src="/images/step1.png" height="40%" width="35px" >
+               <div class="step">
+            <div class="step" id="p1"><span>STEP1 </span><br><h5> YOUR INFO</h5></div>
+            <div class="step" id="p2"><span>STEP2 </span><br><h5>SELECT PLAN</h5></div>
+            <div class="step" id="p3"><span>STEP3 </span><br><h5>ADD-ONS</h5></div>
+            <div class="step" id="p4"><span>STEP4 </span><br><h5> SUMMARY</h5></div>
+                </div>
+        </div>
+        <div class="info">
+            <h2>Personal info</h2>
+            <p> Please provide your name, email address, and phone number.</p>
+            <br>
+            <!--FORMULAIRE-->
+            <form action="second.html">
+                <!-- input NAME -->
+                <label for="username">Name</label>
+                <br>
+                <input type="text" class="form" id="username" name="username" required>
+                <br>
+                <br>
+                <!-- input Email Adress -->
+                <label for="email">Email Address</label>
+                <br>
+                <input type="email" class="form" id="email" name="email" required>
+                <br>
+                <br>
+                <!--input Phone Number -->
+                <label for="phone">Phone Number</label>
+                <br>
+                <input type="tel" class="form" id="phone" name="phone" required>
+                <br>
+                <input  type="submit" id="next"  value="Next step"></a>
+            </form>
+        </div>
+    </div>  
+</body>
+</html>

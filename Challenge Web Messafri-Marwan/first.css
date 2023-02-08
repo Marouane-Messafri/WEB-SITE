@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 500;
+}
+body{
+    background-color: #EEF5FF;
+}
+.page1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 450px;
+    width: 750px;
+    margin-left: 20%;
+    margin-top: 6%;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+/*---debut steps---*/
+.steps img{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right:10px ;
+    height: 50%;
+}
+/*background image*/
+.steps{
+    flex-basis: 30%;
+    height: 430px;
+    margin-left: 10px;
+    background-image: url(/images/bg-sidebar-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    border-radius: 10px;
+    }
+/*positionner "steps"*/
+.step{
+    position: relative;
+    top: 12px;
+    margin-bottom: 28px;
+    color:  hsl(0, 0%, 100%);
+}
+/*titre step1,step...*/
+.step span{
+    opacity: 40%;
+    font-weight: 400;
+}
+/*---fin steps---*/
+
+/*---debut formulaire---*/
+.info{
+    margin-left: 10% ;
+    margin-top: -10%;
+}
+.info h2{
+    margin-bottom: 5px;
+}
+p{
+    font-size: 14px;
+    opacity: 40%;
+}
+/*positionner le formulaire*/
+.form{
+    cursor: pointer;
+    padding-right: 30%;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-radius:6px ;
+    border: 1px solid rgba(0, 0, 0, 0.276);
+}
+/*positionner le boutton <Next step>*/
+#next{
+    position: relative;
+    top:80px;
+    left:60%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #103b97f9;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
